@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 46b93958eece10645bf164b4dfed8a5d
+timeCreated: 1431399291
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shieldeffect_0
+    21300002: shieldeffect_1
+    21300004: shieldeffect_2
+    21300006: shieldeffect_3
+    21300008: shieldeffect_4
+    21300010: shieldeffect_5
+    21300012: shieldeffect_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: shieldeffect_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 39
+        width: 316
+        height: 434
+      alignment: 9
+      pivot: {x: .5, y: -.131895199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shieldeffect_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 19
+        width: 282
+        height: 466
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shieldeffect_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 18
+        width: 289
+        height: 454
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shieldeffect_7
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 19
+        width: 280
+        height: 467
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shieldeffect_0
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 287
+        width: 77
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

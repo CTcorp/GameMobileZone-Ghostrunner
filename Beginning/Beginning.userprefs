@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\FreeGold.cs">
+    <Files>
+      <File FileName="Assets\Script\FreeGold.cs" Line="44" Column="21" />
+      <File FileName="Assets\Script\AdmobObj.cs" Line="1" Column="1" />
+      <File FileName="..\TestAds\Assets\Plugins\AdMobPlugin\AdMobPluginDemoScript.cs" Line="1" Column="1" />
+      <File FileName="d:\Game Unity\Beginning\Assets\Plugins\AdColony.cs" Line="198" Column="98" />
+      <File FileName="d:\Game Unity\Beginning\Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXBuildFile.cs" Line="29" Column="4" />
+      <File FileName="d:\Game Unity\Beginning\Assets\Facebook\Scripts\AndroidFacebook.cs" Line="88" Column="25" />
+      <File FileName="Assets\Script\Notification.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
