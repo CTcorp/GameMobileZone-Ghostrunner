@@ -122,6 +122,20 @@ public class OKButton : MonoBehaviour
 			//resources.offlinemode=true;
 			break;
 
+		case Notification.NotificationType.VideoAvaiable:
+			
+			this.transform.parent.GetComponent<Notification> ().isDone = false;
+			resources.isnotify = false;
+			this.transform.parent.gameObject.SetActive (false);
+			break;
+
+		case Notification.NotificationType.VideoNotAvaiable:
+			
+			this.transform.parent.GetComponent<Notification> ().isDone = false;
+			resources.isnotify = false;
+			this.transform.parent.gameObject.SetActive (false);
+			break;
+
 		case Notification.NotificationType.SearchingOpponent:
 			this.transform.parent.GetComponent<Notification> ().isDone = false;
 			this.transform.parent.gameObject.SetActive (false);

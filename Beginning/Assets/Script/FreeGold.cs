@@ -16,6 +16,7 @@ public class FreeGold : MonoBehaviour
 	private string appId = "app5b2ac6e21037417ab5";
 	private string zoneId = "vz983159b4a456435f9b";
 	public Text mess;
+	public bool isVideoAvaiable=false;
 
 	public void Initialize()
 	{
@@ -139,10 +140,19 @@ public class FreeGold : MonoBehaviour
 			Debug.Log("Do something here ( Adcolony,...)");
 			//Do Something here Tu Kun
 			//PlayV4VCAd(zoneId,true,true);
-			PlayAVideo(zoneId);
+
+			if(isVideoAvaiable==true)
+			{
+				PlayAVideo(zoneId);
+			}
+			else
+			{
+				showNoVideoNotification();
+			}
 		}
 		else
 		{
+			//showNoVideoNotification();
 			showNoConnection();
 		}
 		gamestate.isfacebookclick = false;
@@ -153,6 +163,24 @@ public class FreeGold : MonoBehaviour
 		//gamestate.stategame = GameState.StateGame.Reborn;
 		notification.gameObject.SetActive(true);
 		notification.type = Notification.NotificationType.NoConnection;
+		notification.isDone = false;
+		resources.isnotify = true;
+	}
+
+	void showNoVideoNotification()
+	{
+		gamestate.isfacebookclick=true;
+		notification.gameObject.SetActive(true);
+		notification.type = Notification.NotificationType.VideoNotAvaiable;
+		notification.isDone = false;
+		resources.isnotify = true;
+	}
+
+	void showVideoAvaiableNotification()
+	{
+		gamestate.isfacebookclick=true;
+		notification.gameObject.SetActive(true);
+		notification.type = Notification.NotificationType.VideoAvaiable;
 		notification.isDone = false;
 		resources.isnotify = true;
 	}

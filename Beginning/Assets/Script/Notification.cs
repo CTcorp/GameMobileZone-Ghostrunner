@@ -38,6 +38,8 @@ public class Notification : MonoBehaviour
 		ChallengeRequest_2,
 		ChallengeRequest_3,
 		CheckWinCloseChallenge,
+		VideoAvaiable,
+		VideoNotAvaiable,
 		QuitGame
 	}
 
@@ -200,6 +202,22 @@ public class Notification : MonoBehaviour
 				OKButton.SetActive(true);
 				OKButton_2.SetActive(false);
 				CancelButton.SetActive(false);
+			break;
+
+			case NotificationType.VideoAvaiable:
+			Title.GetComponent<SpriteRenderer>().sprite = LogoutTitleSprite;
+			detail.text = "Let's complete this video to receive 1000 gold";
+			OKButton.SetActive(true);
+			OKButton_2.SetActive(false);
+			CancelButton.SetActive(false);
+			break;
+
+			case NotificationType.VideoNotAvaiable:
+			Title.GetComponent<SpriteRenderer>().sprite = LogoutTitleSprite;
+			detail.text = "There is no videos at the moment!";
+			OKButton.SetActive(true);
+			OKButton_2.SetActive(false);
+			CancelButton.SetActive(false);
 			break;
 
 			case NotificationType.ServerNotAvaiable:
